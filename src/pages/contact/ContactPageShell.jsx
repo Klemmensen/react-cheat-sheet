@@ -7,7 +7,7 @@ const ContactPageShell = () => {
     const [contactFormData, setContactFormData] = useState({
         name: '',
         company: '',
-        'area-of-interest': '',
+        areaOfInterest: 'marketing',
         newsletter: true,
     });
 
@@ -60,7 +60,7 @@ const ContactPageShell = () => {
                         <br /><br />
                         <label>Area of interest:</label>
                         <select
-                            name="area-of-interest"
+                            name="areaOfInterest"
                             value={contactFormData.areaOfInterest}
                             onChange={handleChange}>
                             <option value="marketing">Marketing</option>
