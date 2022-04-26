@@ -8,6 +8,13 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  display: block;
+  white-space: pre-wrap;
+  background: #CCC;
+  padding: 5px;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0.67em 0;
 }
